@@ -12,7 +12,7 @@ import HelloWorld from './components/HelloWorld.vue';
       width="125"
       height="125"
     />
-
+    <div class="font-500 font-size-[2rem] color-#606266">3333</div>
     <div class="wrapper">
       <hello-world msg="You did it!" />
 
