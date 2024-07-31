@@ -1,0 +1,11 @@
+// .stylelintignore
+*.js
+*.tsx
+*.ts
+*.json
+*.png
+*.eot
+*.ttf
+*.woff
+*.css
+src/styles/antd-overrides.less

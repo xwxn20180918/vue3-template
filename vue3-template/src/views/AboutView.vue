@@ -4,12 +4,14 @@
   </div>
 </template>
 
-<style>
+<style lang="less" scoped>
+.about {
+  min-height: 100vh;
+  align-items: center;
+  margin-left: 1rem;
+
+  display: flex;
+}
 @media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
 }
 </style>
