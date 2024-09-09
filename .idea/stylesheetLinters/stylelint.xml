@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="StylelintConfiguration">
+    <config-file value="$PROJECT_DIR$/vue3-template/.stylelintrc.json" />
+    <file-patterns value="**/*.{css,html,vue}" />
+    <option name="fix-on-save" value="true" />
+  </component>
+</project>
