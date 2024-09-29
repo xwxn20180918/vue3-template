@@ -158,12 +158,12 @@ const transform: AxiosTransform = {
    * @param error
    */
   responseInterceptorsCatch(axiosInstance, error) {
-    const status = error?.response?.status;
     if (axios.isCancel(error)) return Promise.reject(error);
-    if (status === 401) {
-    }
-    if (status === 403) {
-    }
+    // const status = error?.response?.status;
+    // if (status === 401) {
+    // }
+    // if (status === 403) {
+    // }
     return Promise.reject(error);
   }
 };
