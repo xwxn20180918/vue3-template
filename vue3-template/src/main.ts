@@ -1,11 +1,12 @@
+import 'ant-design-vue/dist/reset.css';
+import '@/design/index.less';
 import '@/plugins/unocss';
-import './assets/main.css';
 
 import { createApp } from 'vue';
 import App from './App.vue';
+import { registerGlobComp } from '@/plugins/ant-design';
 import { setupRouter } from './router';
 import { setupStore } from '@/stores';
-import { setupElementPlus } from '@/plugins/element-plus';
 
 function bootstrap() {
   const app = createApp(App);
@@ -14,7 +15,7 @@ function bootstrap() {
   setupStore(app);
 
   // 注册全局组件
-  setupElementPlus(app);
+  registerGlobComp(app);
 
   // 初始化内部系统配置
   // initAppConfigStore();

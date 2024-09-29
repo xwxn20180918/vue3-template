@@ -18,10 +18,10 @@
   },
   "dependencies": {
     "@vueuse/core": "^10.11.0",
+    "ant-design-vue": "^4.2.5",
     "axios": "^1.7.2",
     "crypto-js": "^4.2.0",
     "dayjs": "^1.11.12",
-    "element-plus": "^2.7.8",
     "lodash-es": "^4.17.21",
     "pinia": "^2.1.7",
     "pinia-plugin-persistedstate": "^3.2.1",

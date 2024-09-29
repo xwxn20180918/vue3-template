@@ -17,7 +17,7 @@
   justify-content: flex-start;
 }
 
-/* nprogress 适配 element-plus 的主题色 */
+/* nprogress 适配 ant-design 的主题色 */
 #nprogress {
   & .bar {
     background-color: var(--el-color-primary) !important;
