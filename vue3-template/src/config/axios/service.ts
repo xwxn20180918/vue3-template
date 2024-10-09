@@ -28,7 +28,7 @@ function refreshToken() {
 }
 
 export class VAxios {
-  private axiosInstance: AxiosInstance;
+  private readonly axiosInstance: AxiosInstance;
 
   private readonly options: CreateAxiosOptions;
 

@@ -23,6 +23,7 @@ export interface EncryptionParams {
 
 class AesEncryption implements Encryption {
   private readonly key;
+
   private readonly iv;
 
   constructor({ key, iv }: EncryptionParams) {
@@ -37,9 +38,11 @@ class AesEncryption implements Encryption {
       iv: this.iv
     };
   }
+
   encrypt(plainText: string) {
     return aesEncrypt(plainText, this.key, this.getOptions).toString();
   }
+
   decrypt(cipherText: string) {
     return aesDecrypt(cipherText, this.key, this.getOptions).toString(UTF8);
   }

@@ -1,4 +1,3 @@
-
 export function isDevelopment(): boolean {
   return import.meta.env.VITE_NODE_ENV === 'development';
 }
@@ -10,4 +9,3 @@ export function isProduction(): boolean {
 export function isDte(): boolean {
   return import.meta.env.VITE_NODE_ENV === 'dte';
 }
-
