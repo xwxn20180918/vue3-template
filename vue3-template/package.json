@@ -17,6 +17,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@uni-helper/unocss-preset-uni": "^0.2.10",
     "@vueuse/core": "^10.11.0",
     "ant-design-vue": "^4.2.5",
     "axios": "^1.7.2",
